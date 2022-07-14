@@ -30,7 +30,7 @@
 /* Head-top */
 .head-logo {
     color: #F9FAF8;
-    font-weight: 900;
+    font-weight: 1000;
     font-size: 24px;
     align-self: center;
 }
@@ -113,3 +113,25 @@
 
 /* Content */
 
+.content-container {
+    padding-top: 24px;
+}
+
+.content-title {
+    text-align: center;
+    padding-bottom: 24px;
+    font-size: 36px;
+    font-weight: 1000;
+}
+
+.content-img-container {
+    display:flex;
+    gap: 24px;
+}
+
+.content-img {
+    height: 200px;
+    width: 200px;
+    border: solid #3882F6 3px;
+    border-radius: 5px;
+}

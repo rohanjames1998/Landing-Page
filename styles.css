@@ -9,18 +9,46 @@
     height: 100vh;
     width: 600px;
     margin: 0 auto;
+    display:flex;
+    flex-direction: column;
 }
 
 .header {
     display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 8px 0;
 }
 
 .head-logo {
-    font-size: 24px;
-    color: #F9FAF8
+    color: #F9FAF8;
+    font-weight: 900;
 }
+
+.head-ul {
+    list-style-type: none;
+    
+}
+
+.head-ul li {
+    display: inline;
+    padding: 0 8px;
+}
+
+.head-ul li a:link, a:visited, a:active, .head-description{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 
 .header, .footer{
     background-color: #1F2937;
 
+}
+
+.head-top {
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-start;
 }

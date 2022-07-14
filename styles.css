@@ -12,15 +12,18 @@
     flex-direction: column;
 }
 
+.header, .content-container, .review-container, .sign-up-container  {
+    padding-right:20%;
+    padding-left:  20%;
+    padding-bottom: 75px;
+}
+
 .header {
     display: flex;
     flex-direction: column;
     flex: 1 0 auto;
     width: 100%;
-    padding-right:20%;
-    padding-left:  20%;
     padding-top: 8px;
-    padding-bottom: 75px;
     row-gap: 75px;
 }
 
@@ -86,7 +89,6 @@
 }
 
 .head-button {
-    background-color: royalblue;
     border: none;
     padding: 8px 24px;
     color:#F9FAF8;
@@ -104,3 +106,10 @@
 .head-description {
     padding-bottom: 8px;
 }
+
+.head-button, .sign-up-box {
+    background-color:#3882F6 ;
+}
+
+/* Content */
+

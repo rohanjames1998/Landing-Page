@@ -11,6 +11,15 @@
     margin: 0 auto;
 }
 
+.header {
+    display: flex;
+}
+
+.head-logo {
+    font-size: 24px;
+    color: #F9FAF8
+}
+
 .header, .footer{
     background-color: #1F2937;
 

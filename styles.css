@@ -143,9 +143,11 @@
     background-color: #E5E7EB;
     font-style: italic;
     color: #1F2937;
+    font-size: 36px;
 }
 
 .author {
     font-style: normal;
     text-align: end;
+    font-size: 24px;
 }

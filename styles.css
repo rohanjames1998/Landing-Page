@@ -138,3 +138,14 @@
 }
 
 /* Review section */
+.review-container {
+    padding-top: 100px;
+    background-color: #E5E7EB;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    font-style: normal;
+    text-align: end;
+}

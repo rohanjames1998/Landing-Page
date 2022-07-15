@@ -25,6 +25,8 @@
     width: 100%;
     padding-top: 8px;
     row-gap: 75px;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Head-top */
@@ -37,6 +39,7 @@
 
 .head-ul {
     list-style-type: none;
+    
     
 }
 
@@ -64,6 +67,8 @@
 .head-top {
     display: flex;
     align-items: flex-start;
+    flex: 1 0 auto;
+    width: 100%;
     justify-content: space-between;
 }
 
@@ -86,6 +91,7 @@
     flex: 1;
     color:#F9FAF8;  
     line-height: 48px;
+    max-width: 400px;
 }
 
 .head-button {
@@ -102,10 +108,12 @@
  height: 200px;
  width: 400px;   
  background-color: grey;
+ max-width: 400px;
 }
 
 .head-description {
     padding-bottom: 8px;
+    max-width: 400px;
 }
 
 .head-button, .sign-up-box {
@@ -129,6 +137,8 @@
 .content-img-container {
     display:flex;
     gap: 24px;
+    justify-content: center;
+    align-items: center;
 }
 
 .content-img {
@@ -136,6 +146,11 @@
     width: 200px;
     border: solid #3882F6 3px;
     border-radius: 5px;
+}
+
+.content-img-text {
+    width: 100%;
+    max-width: 200px;
 }
 
 /* Review section */
@@ -153,9 +168,17 @@
     font-size: 24px;
 }
 
+.review-text {
+    max-width: 1350px;
+}
+
 /* Sign up section */
 
 .sign-up-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     padding-top: 100px;
     padding-left: 15%;
     padding-right: 15%;
@@ -168,7 +191,7 @@
     color:#E5E7EB;
     padding: 34px 100px;
     border-radius: 8px;
-
+    max-width: 1350px;
     
     flex: 1 0 auto;
     justify-content: space-between;
